@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollador Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Juan Pérez - Desarrollador Web</h1>
+        <p>Creando soluciones digitales a medida</p>
+    </header>
+    <section>
+    <h2>Sobre mí</h2>
+    <p>¡Hola! Soy Juan, programador desde hace más de 30 años (sí, cuando todo era mucho más lento 😄). A lo largo del tiempo pasé por un montón de tecnologías, errores, aprendizajes y proyectos que me fueron formando</p>
+    <p>Si llegaste hasta acá, escribime. Capaz podemos crear algo bueno juntos</p>
+</section>
+
+    <main>
+        <!-- Galería de imágenes -->
+        <section class="galeria">
+            <h2>Mis Proyectos</h2>
+            <img src="img/proyecto1.jpg" alt="Proyecto 1">
+            <img src="img/proyecto2.jpg" alt="Proyecto 2">
+            <img src="img/proyecto3.jpg" alt="Proyecto 3">
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
