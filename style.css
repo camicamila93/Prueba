@@ -8,6 +8,12 @@ body {
 
 /* Encabezado */
 header {
+    <v-banner
+  outlined
+  rounded
+  single-line
+  sticky
+></v-banner>
     background-color: #a8a4e7;
     color: white;
     text-align: center;
