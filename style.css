@@ -91,3 +91,37 @@ header h1 {
   width: 50px;
   height: auto;
 }
+#desarrollos {
+  padding: 30px;
+}
+
+.proyecto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.proyecto img {
+  width: 100px; /* Ajustá el tamaño de la imagen */
+  height: auto;
+}
+
+.proyecto .detalle {
+  max-width: 600px;
+}
+/* Responsive para celulares */
+@media (max-width: 768px) {
+  .proyecto {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .proyecto img {
+    margin-bottom: 15px;
+  }
+
+  .proyecto .detalle {
+    max-width: 100%;
+  }
+}
