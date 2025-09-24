@@ -119,8 +119,9 @@ header img {
 }
 
 .proyecto img {
-  width: 100px; /* Ajustá el tamaño de la imagen */
-  height: auto;
+  width: 120px;   /* cambiá este valor para hacerla más grande o chica */
+  height: auto;   /* mantiene la proporción */
+  margin-right: 15px;
 }
 
 .proyecto .detalle {
