@@ -92,6 +92,16 @@ header h1 {
   align-items: center;
   gap: 10px; /* espacio entre el texto y los stickers */
 }
+header {
+  text-align: center; /* centra todo lo que esté adentro */
+  padding: 20px;
+}
+
+header img {
+  display: block;       /* hace que el navegador lo trate como bloque */
+  margin: 0 auto;       /* lo centra horizontalmente */
+  max-width: 100%;     /* para que no se salga del contenedor */
+}
 
 .sticker {
   width: 600px;
