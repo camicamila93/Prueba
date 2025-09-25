@@ -108,13 +108,10 @@ header img {
   height: auto;
 }
 #desarrollos {
-  padding: 30px;
-  background: #fff;
-  align-items: center;
-  border-radius: 10px;
-  margin: 20px 0;
+  text-align: center;
+  font-size: 2rem;   /* opcional: más grande */
+  margin-bottom: 30px; /* opcional: espacio debajo */
 }
-
 .proyecto {
   display: flex;
   align-items: center;
