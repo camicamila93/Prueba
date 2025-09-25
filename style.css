@@ -109,24 +109,29 @@ header img {
 }
 #desarrollos {
   padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 20px 0;
 }
 
 .proyecto {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
-  gap: 20px;
+  margin-bottom: 25px;
 }
 
 .proyecto img {
-  width: 120px;   /* cambiá este valor para hacerla más grande o chica */
-  height: auto;   /* mantiene la proporción */
-  margin-right: 15px;
+  width: 300px;   /* Aca elegís el tamaño de la imagen */
+  height: auto;
+  margin-right: 20px;
 }
 
-.proyecto .detalle {
-  max-width: 600px;
+.proyecto .detalle h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
+
 /* Responsive para celulares */
 @media (max-width: 768px) {
   .proyecto {
